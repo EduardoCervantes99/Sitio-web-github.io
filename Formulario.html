@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+	<!---Bootstrap Css-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<!---Boostrap JavaScript-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="Estilo-form.css">
+</head>
+<body>
+	<header>
+		<!---Formulario-->
+		<form>
+			<img src="UTN.png" alt="">
+			<h1>Registrarse</h1>
+			<ul>
+				<li>
+					<label>Nombre</label>
+					<input type="text" name="user_name">
+				</li>
+				<li>
+					<label>Carrera</label>
+					<select list="carreras" name="carrera">
+					<!---Lista  predeterminadad de opciones-->
+						<option label="Idgs" value="Idgs">
+						<option label="Mecatronica" value="Mecatronica">
+						<option label="Mantenimiento Industrial" value="Mantenimiento Industrial">
+						<option label="Gastronomia" value="Gastronomia">
+						<option label="Seguridad Publica" value="Seguridad Publica">
+						<option label="Ingenieria Civil" value="Ingenieria Civil">
+						<option label="Mercadotecnia" value="Mercadotecnia">
+						<option label="Oci" value="Oci">
+						<option label="Turismo" value="Turismo">
+					</select>
+				</li>
+				<li>
+					<label>Matricula</label>
+					<input type="text" name="mail">
+				</li>
+				<li>
+					<label>Correo</label>
+					<input type="email" name="mail">
+				</li>
+				<li>
+					<label>Fecha de nacimiento</label>
+					<input type="date" name="born">
+				</li>
+				<li>
+					<label>Sexo</label><br>
+					<input type="radio" name="hm" value="H">Hombre
+					<input type="radio" name="hm" value="M">Mujer
+					<input type="radio" name="hm" value="">Otro
+				</li>
+				<!---Botones hechos con botstrap-->
+				<button type="submit" class="btn btn-primary">Enviar</button>
+				<button type="reset" class="btn btn-primary">Borrar</button>
+			</ul>
+		</form>
+	</header>
+</body>
+</html>

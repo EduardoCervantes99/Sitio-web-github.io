@@ -1,0 +1,19 @@
+body {
+  font  : 20px sans-serif;
+  padding : 250px;
+  margin  : 0;
+  background : #167a22;
+}
+/*Formato del formulario*/
+form {
+  width  : 740px;
+  height : 350px;
+  margin : 0 auto;
+  padding: 20px;
+  background : #FFF;
+}
+
+img{
+  position: absolute;
+  margin-left: 500px;
+}
